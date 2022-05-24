@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #888;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  color: rgb(31, 95, 77);
+}
+
+.section-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.section-form form {
+  display: flex;
+  flex-flow: column;
+  background-color: darkslateblue;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.section-form form div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.section-form form button {
+  width: 100px;
+  align-self: center;
+  margin-top: 15px;
+  border: none;
+  padding: 3px 0;
+  border-radius: 5px;
+  background-color: rgb(68, 213, 218);
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+}
+
+.section-form form button:hover {
+  background-color: rgb(30, 97, 100);
+  color: white;
+}
+
+.section-form form div input {
+  border: none;
+}
+
+.section-form form div input:focus {
+  outline: none;
+}
+
+.section-lists ul {
+  padding: 20px;
+  list-style: none;
+  background-color: darkorange;
+  width: 200px;
+}
+
+.section-lists ul li:nth-child(1) {
+  background-color: darkgray;
+  padding: 4px;
+}
+
+.section-lists ul li:nth-child(3) {
+  background-color: darkcyan;
+  padding: 4px;
+}
+
+.section-lists ul li:nth-child(2) {
+  background-color: lawngreen;
+  padding: 4px;
+}
